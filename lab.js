@@ -7,13 +7,13 @@
 */
 
 //CODE HERE
-// let lovesCode = true;
+let lovesCode = true;
 
-// if(lovesCode === true) {
-//   console.log("I love to code.");
-// } else {
-//   console.log("Coding has its challenges");
-// }
+if(lovesCode === true) {
+  console.log("I love to code.");
+} else {
+  console.log("Coding has its challenges");
+}
 // // For problems 2-3 use the following lines of code:
 var amysAge = 29
 var brittanisAge = 34
@@ -28,13 +28,13 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
-// if(amysAge < brittanisAge) {
-//   console.log("Brittani is older.")
-// } else if(amysAge > brittanisAge) {
-//   console.log("Amy is older.")
-//  } else {
-//       console.log("They are the same age.")
-//     }
+if(amysAge < brittanisAge) {
+  console.log("Brittani is older.")
+} else if(amysAge > brittanisAge) {
+  console.log("Amy is older.")
+ } else {
+      console.log("They are the same age.")
+    }
 
 ////////// PROBLEM 3 //////////
 
@@ -43,11 +43,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-// if(amysBirthYear === brittanisBirthYear) {
-//   console.log("Amy and Brittani were born in the same year")
-// } else {
-//   console.log("Amy and Brittani were not born in the same year")
-// }
+if(amysBirthYear === brittanisBirthYear) {
+  console.log("Amy and Brittani were born in the same year")
+} else {
+  console.log("Amy and Brittani were not born in the same year")
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -60,19 +60,19 @@ let rain = false
 */
 
 //CODE HERE
-// if(temperature >= 80 && rain === true) {
-//   console.log("You should wear a t-shirt and take an umbrella.")
-// } else if(temperature > 59 && temperature < 79 && rain === true) {
-//   console.log("You should were a rain-jacket.")
-// } else if(temperature <= 60 && rain === true) {
-//   console.log("You should wear a rain-jacket and carry an umbrella.")
-// } else if(temperature >= 80 && rain !== true) {
-//   console.log("You should were a t-shirt and shorts.")
-// } else if(temperature > 59 && temperature < 79 && rain !== true) {
-//   console.log("You should wear a t-shirt and pants.")
-// } else {
-//   console.log("You should wear a jacket.")
-// }
+if(temperature >= 80 && rain === true) {
+  console.log("You should wear a t-shirt and take an umbrella.")
+} else if(temperature > 59 && temperature < 79 && rain === true) {
+  console.log("You should were a rain-jacket.")
+} else if(temperature <= 60 && rain === true) {
+  console.log("You should wear a rain-jacket and carry an umbrella.")
+} else if(temperature >= 80 && rain !== true) {
+  console.log("You should were a t-shirt and shorts.")
+} else if(temperature > 59 && temperature < 79 && rain !== true) {
+  console.log("You should wear a t-shirt and pants.")
+} else {
+  console.log("You should wear a jacket.")
+}
 
 
 ////////// PROBLEM 5 //////////
@@ -82,9 +82,9 @@ let rain = false
 */
 
 //CODE HERE
-// for(i = 0; i < 10; i++) {
-//   console.log("Hello")
-// }
+for(i = 0; i < 10; i++) {
+  console.log("Hello")
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -93,9 +93,9 @@ let rain = false
 */
 
 //CODE HERE
-// for(i = 1; i < 11; i++) {
-//   console.log(`${i}.`);
-// }
+for(i = 1; i < 11; i++) {
+  console.log(`${i}.`);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -104,9 +104,9 @@ let rain = false
 */
 
 //CODE HERE
-// for(i = 10; i > 0; i--) {
-//   console.log(`${i}.`)
-// }
+for(i = 10; i > 0; i--) {
+  console.log(`${i}.`)
+}
 
 
 let score = 0
@@ -119,10 +119,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-// while(score < 7) {
-//   console.log("Your score is not high enough")
-//   score += 1
-// }
+while(score < 7) {
+  console.log("Your score is not high enough")
+  score += 1
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -134,24 +134,24 @@ let passingScore = 7
 */
 
 //CODE HERE
-// let changeMyMind = true
+let changeMyMind = true
 
-// if(changeMyMind === true) {
-//   changeMyMind = false
-//   console.log(changeMyMind)
-// } else {
-//   changeMyMind = true
-//   console.log(changeMyMind)
-// }
+if(changeMyMind === true) {
+  changeMyMind = false
+  console.log(changeMyMind)
+} else {
+  changeMyMind = true
+  console.log(changeMyMind)
+}
  
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-// if(changeMyMind === false) {
-//   changeMyMind = true
-//   console.log(changeMyMind)
-// }
+if(changeMyMind === false) {
+  changeMyMind = true
+  console.log(changeMyMind)
+}
 
 
 ////////// ADVANCED PROBLEMS //////////

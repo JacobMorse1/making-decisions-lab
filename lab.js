@@ -7,7 +7,7 @@
 */
 
 //CODE HERE
-let lovesCode = true;
+// let lovesCode = true;
 
 // if(lovesCode === true) {
 //   console.log("I love to code.");
@@ -28,13 +28,13 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
-if(amysAge < brittanisAge) {
-  console.log("Brittani is older.")
-} else if(amysAge > brittanisAge) {
-  console.log("Amy is older.")
- } else {
-      console.log("They are the same age.")
-    }
+// if(amysAge < brittanisAge) {
+//   console.log("Brittani is older.")
+// } else if(amysAge > brittanisAge) {
+//   console.log("Amy is older.")
+//  } else {
+//       console.log("They are the same age.")
+//     }
 
 ////////// PROBLEM 3 //////////
 
@@ -43,7 +43,11 @@ if(amysAge < brittanisAge) {
 */
 
 //CODE HERE
-
+// if(amysBirthYear === brittanisBirthYear) {
+//   console.log("Amy and Brittani were born in the same year")
+// } else {
+//   console.log("Amy and Brittani were not born in the same year")
+// }
 
 ////////// PROBLEM 4 //////////
 
